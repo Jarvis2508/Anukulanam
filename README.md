@@ -1,4 +1,5 @@
-# Anukulanam
+![Alt Text](Logo.png)
+
 # अनुkulanam – Inclusive Ethnicwear, Perfect Fit
 
 At **अनुkulanam**, we believe fashion should be **inclusive, effortless, and personal**.  
@@ -6,7 +7,7 @@ This project represents a brand + digital platform that combines **semi-stitched
 
 ---
 
-## 🧵 About अनुkulanam
+##  About अनुkulanam
 
 `अनुkulanam` brings together:
 
@@ -20,7 +21,7 @@ The goal is to **simplify ethnic wear** for today’s generation while retaining
 
 ---
 
-## 📖 Our Story
+##  Our Story
 
 अनुkulanam was born from a simple observation:
 
@@ -36,7 +37,7 @@ By blending **timeless Indian traditions** with **modern digital tools** and **t
 
 ---
 
-## ❗ The Problem
+## The Problem
 
 1. **Fit Issues**  
    - Many ready-to-wear brands ignore **body diversity**.  
