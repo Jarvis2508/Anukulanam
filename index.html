@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>ANUKULANAM — Handcrafted Textiles</title>
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="styles.css"/>
+  <script defer src="script.js"></script>
+</head>
+<body>
+ 
+  <!-- Header -->
+  <header class="header">
+    <a class="brand" href="#">
+  <!-- Your logo file inside /assets -->
+  <img src="assets/logo.jpeg" alt="ANUKULANAM" class="logo" />
+    </a>
+    <nav class="nav">
+      <a href="#new">new</a>
+      <a href="#collections">collections</a> 
+      <a href="#about us">about us</a>
+      <a href="#contact">contact</a>
+    </nav>
+    <div class="actions">
+      <button class="icon" aria-label="search">🔎</button>
+      <button class="icon" aria-label="account">👤</button>
+      <button class="icon" aria-label="cart">🛒<span id="cartCount" class="badge">0</span></button>
+    </div>
+    <button class="burger" id="burger" aria-label="menu">☰</button>
+  </header>
+
+  <!-- Hero -->
+  <section class="hero">
+    <div class="hero-copy">
+      <h1>Discover The Elegance of Sarees and Shirts</h1>
+      <p>Elegance. Style. Tradition.</p>
+    </div>
+    <div class="hero-media">
+      <img src="assets/front.png" alt="Shirt">
+    </div>
+  </section>
+
+  <!-- Marquee -->
+  <section class="marquee">
+    <div class="track">
+      <span>Tradition meets technology • Custom measurements • QR styling guides • Individuality in fashion</span>
+      <span>Tradition meets technology • Custom measurements • QR styling guides • Individuality in fashion</span>
+      <span>Tradition meets technology • Custom measurements • QR styling guides • Individuality in fashion</span>
+    </div>
+  </section>
+
+<!-- Feature Section (video background) -->
+<section class="feature-block">
+  <video class="feature-video"
+         src="assets/video.mp4"
+         autoplay
+         muted
+         loop
+         playsinline
+         poster="assets/festive-poster.jpg">
+  </video>
+</section>
+
+  <!-- Collections grid -->
+  <section id="collections" class="collections container">
+    <h2>Collections</h2>
+    <div class="grid">
+      <a class="collection" href="#">
+        <img src="assets/Saree.jpeg" alt="">
+        <div class="overlay"><span>Saree</span></div>
+      </a>
+      <a class="collection" href="#">
+        <img src="assets/kurti.jpeg" alt="">
+        <div class="overlay"><span>Kurtis</span></div>
+      </a>
+      <a class="collection" href="#">
+        <img src="assets/kurta.jpeg" alt="">
+        <div class="overlay"><span>Kurtas</span></div>
+      </a>
+      <a class="collection" href="#">
+        <img src="assets/shirt.jpeg" alt="">
+        <div class="overlay"><span>Shirts</span></div>
+      </a>
+    </div>
+  </section>
+
+  <!-- Services -->
+  <section id="services" class="services container">
+    <div class="service">
+      <h3>virtual styling</h3>
+      <p>book a 15-min video call with our stylist for color & drape guidance.</p>
+      <a class="link" href="#">book a slot →</a>
+    </div>
+    <div class="service">
+      <h3>tailor connect</h3>
+      <p>share saved measurements with our verified tailors in your city.</p>
+      <a class="link" href="#">find a tailor →</a>
+    </div>
+    <div class="service">
+      <h3>care & repair</h3>
+      <p>post-purchase border fixing, pico & fall, and stain-care tips.</p>
+      <a class="link" href="#">learn more →</a>
+    </div>
+  </section>
+
+  <!-- Big editorial block -->
+  <section class="editorial">
+    <div class="editorial-inner container">
+      <h2>About Us</h2>
+      <p>At अनुkulanam, we blend tradition with technology to create fashion that truly fits you. Our semi-stitched outfits like shirts, kurtas, and sarees are designed for every body type, allowing customers to customize the final stitch for a perfect fit. Through our smart platform, users can upload their exact measurements and receive garments tailored to them. Each outfit comes with a QR code offering styling tips, matching accessories, and saree draping tutorials, making dressing simple yet elegant. At अनुkulanam, we celebrate individuality by crafting clothing that adapts to you, because fashion should always be in harmony with you.</p>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer id="contact" class="footer">
+    <div class="container foot-grid">
+      <div>
+        <h4>अनुkulanam</h4>
+        <p>Elegance. Style. Tradition.</p>
+      </div>
+      <div>
+        <h5>help</h5>
+        <ul>
+          <li><a href="#">shipping & returns</a></li>
+          <li><a href="#">care guide</a></li>
+          <li><a href="#">size & fit</a></li>
+        </ul>
+      </div>
+      <div>
+        <h5>contact</h5>
+        <ul>
+          <li><a href="mailto:joshihemang25@gmail.com">joshihemang25@gmail.com</a></li>
+          <li><a href="tel:+919327331817">+91 93273 31817</a></li>
+        </ul>
+      </div>
+      <form id="nlForm" class="newsletter">
+        <label for="nlEmail">join newsletter</label>
+        <div class="nl-row">
+          <input id="nlEmail" type="email" placeholder="your email" required>
+          <button class="btn primary" type="submit">subscribe</button>
+        </div>
+        <small>by subscribing you agree to our privacy policy.</small>
+      </form>
+    </div>
+    <div class="subfoot">© <span id="year"></span> अनुkulanam — all rights reserved.</div>
+  </footer>
+</body>
+</html>
