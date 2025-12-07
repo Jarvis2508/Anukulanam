@@ -1,4 +1,4 @@
-![Alt Text](Logo.png)
+![Alt Text](assets/Logo.png)
 
 # अनुkulanam – Inclusive Ethnicwear, Perfect Fit
 
